@@ -27,8 +27,7 @@ public class Main {
                 return false;
             }
         }
-
-        return Arrays.stream(array).anyMatch(num -> num == 1) && Arrays.stream(array).anyMatch(num -> num == 2);
+        return true;
     }
 
     public static void main(String[] args) {
